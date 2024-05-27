@@ -1,0 +1,26 @@
+{
+  "name": "image-compressor-react",
+  "version": "1.0.0",
+  "description": "A library for lossless image compression",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "image-compressor": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "peerDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+  }
+}
